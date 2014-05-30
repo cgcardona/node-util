@@ -57,3 +57,6 @@ exports.format = function(f) {
   }
   return str;
 };
+function isString(arg) {
+  return typeof arg === 'string';
+}
